@@ -1,0 +1,19 @@
+Station information:
+Name	Agent Number	Network Number	Latitude (dec.deg)	Longitude (dec.deg)	Height (m)	Posn_Precision	Observing Authority
+Reefton Ews	3925	F21182	-42.116	171.860	198	G	Niwa / West Coast Rural Fire Dis
+Note: Position precision types are: "W" = based on whole minutes, "T" = estimated to tenth minute,
+"G" = derived from gridref , "E" = error cases derived from gridref,
+"H" = based on GPS readings (NZGD49), "D" = by definition i.e. grid points.
+
+Max_min: Daily
+Station	Date(NZST)	Tmax(C)	Period(Hrs)	Tmin(C)	Period(Hrs)	Tgmin(C)	Period(Hrs)	Tmean(C)	RHmean(%)	Period(Hrs)	Freq
+3925	20210509:0900	17.2	24	10.9	24	11.3	24	-	-	-	D
+3925	20210510:0900	20.4	24	13.2	24	13.0	24	-	-	-	D
+
+UserName is = rashi.bhalla@aut.ac.nz
+Total number of rows output = 2
+Number of rows remaining in subscription = 1995919
+Copyright NIWA 2021 Subject to NIWA's Terms and Conditions
+See: http://clifloecd1.niwa.co.nz/pls/niwp/doc/terms.html
+Comments to: cliflo@niwa.co.nz
+

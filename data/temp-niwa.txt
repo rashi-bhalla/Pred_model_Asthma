@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+      "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Not logged in</title>
+<meta http-equiv="Pragma" name="" content="no-cache">
+<link rel=stylesheet type="text/css" href=/format.css>
+
+<script type="text/javascript">
+
+
+<!--
+
+
+//######
+function on(n) {document[n].src = "/img/subnavi1.gif";}
+function off(n) {document[n].src = "/img/links1.gif";}
+
+//######
+function selfname(){window.name = "genf1";}
+
+//######
+function popupwindow(name){
+popper=open(name, "popup", "width=450,height=630,scrollbars,resizable,status,screenX=0,screenY=0,left=0,top=0");
+popper.focus();
+}
+
+//######
+function popuphelp(name){
+popper=open(name, "pophelp", "width=450,height=630,scrollbars,resizable,screenX=0,screenY=10,left=0,top=10");
+popper.focus();
+}
+
+//######
+function popgenf1(name){
+popper=open(name, "genf1");
+popper.focus();
+}
+
+//######
+function choose_stn(name){
+document.gonzo.submit()
+popupwindow('/pls/niwp/wstn.get_stn_html');
+}
+
+//######
+function choose_datatypes(name){
+document.gonzo.submit()
+popupwindow('/pls/niwp/wgenf.choose_datatype?cat=main');
+}
+
+//#####
+function refresh_genf1(do_focus){
+genf1=window.open('/pls/niwp/wgenf.genform1','genf1');
+if (do_focus) {
+	genf1.window.focus();
+}
+}
+
+//#####
+function refresh_home(do_focus){
+genf1=window.open('/','genf1');
+if (do_focus) {
+	genf1.window.focus();
+}
+}
+
+-->
+
+</script>
+</head>
+</head>
+<body>
+<h3></h3>
+<div style="font-weight:bold;font-size:1.2em">You do not appear to be logged in</div>
+<div">Are cookies enabled in your browser?</div>
+<div>To extract data you must be logged in, or be recognised as a "public" user and your browser MUST have cookies enabled.</div>
+<a href="/" target="genf1"><b>CliFlo Home</b></a><br>
+</body>
+</html>
